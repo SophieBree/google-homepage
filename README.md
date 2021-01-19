@@ -1,0 +1,1 @@
+This is a project to replicate the Google homepage. Completing this will help me practice my skills as a web developer and hopefully learn some new things. :)
