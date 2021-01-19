@@ -4,42 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <ul id="navbar">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Store</a></li>
-          <li style="float: right;"><a href="#">Images</a></li>
-          <li style="float: right;"><a href="#">Gmail</a></li>
-      </ul>
+    <ul id="navbar">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Store</a></li>
+      <li style="float: right"><a href="#">Images</a></li>
+      <li style="float: right"><a href="#">Gmail</a></li>
+    </ul>
     <img
       id="logo"
       src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
       alt="Google logo"
     />
     <br />
-    <input
-      type="text"
-      name="search"
-      id="search"
-      placeholder="Search..."
-      onfocus="this.placeholder =''"
-    />
+    <div class="container">
+      <img src="search.png" alt="" id="search-icon" />
+      <input type="text" name="search" id="search" />
+    </div>
+
+    <div id="search-buttons">
+      <button>Google Search</button>
+      <button>I'm Feeling Lucky</button>
+    </div>
 
     <footer>
-        <ul id="footer-1">
-            <li>Australia</li>
-        </ul>
+      <ul id="footer-1">
+        <li>Australia</li>
+      </ul>
 
-        <ul id="footer-2">
-            <li><a href="#">Advertising</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">How Search works</a></li>
-            <li style="float: right;"><a href="#">Settings</a></li>
-            <li style="float: right;"><a href="#">Terms</a></li>
-            <li style="float: right;"><a href="#">Privacy</a></li>
-        </ul>
+      <ul id="footer-2">
+        <li><a href="#">Advertising</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">How Search works</a></li>
+        <li style="float: right"><a href="#">Settings</a></li>
+        <li style="float: right"><a href="#">Terms</a></li>
+        <li style="float: right"><a href="#">Privacy</a></li>
+      </ul>
     </footer>
   </body>
 </html>
