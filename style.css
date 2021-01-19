@@ -1,7 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 #logo {
+    display: block;
+    margin: auto;
+    padding-top: 10em;
+    width: 272px;
+    height: 92px;    
+}
+
+#search {
+    display: block;
     margin: auto;
 }
 
-#search:focus {
-    placeholder: ''
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 20px 0 20px;
+}
+
+li {
+    display: inline;
+    padding: 0 5px 0 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 0;
+    margin: 0;
 }
